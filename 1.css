@@ -1,0 +1,148 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: white;
+    position: relative;
+}
+.option
+{
+    background-color: white;
+    height: 100vh;
+    width: 170px;
+    box-shadow: rgb(192, 192, 192) 5px 2px 9px 8px;
+    display: inline-block;
+}
+.logo1
+{
+    height: 110px;
+}
+.logo2
+{
+    height: 110px;
+}
+.logo3
+{
+    height: 110px;
+}
+.logo4
+{
+    height: 313px;
+}
+.logo1 img
+{
+    width: 50px;
+    height: 50px;
+   margin-left: 50px;
+   margin-top: 30px;
+}
+.logo2 img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.logo2 h3
+{
+    margin-left: 43px;
+    color: grey;
+}
+.logo3 img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+   margin-top: 30px;
+}
+.logo3 h3
+{
+    margin-left: 43px;
+    color: grey;   
+}
+.logo4 img
+{
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.logo4 h3
+{
+    margin-left: 43px;
+    color: grey;     
+}
+hr
+{
+   border-top: 4px solid rgb(231, 231, 231) ;
+}
+.main
+{
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    left: 12%;
+    height: 100vh;
+    background-color: white;
+    width: 1370px;
+}
+.main .top 
+{
+    
+    height: 115px;
+    width: 1370px
+}
+.main .bottom 
+{
+    height: 605px;
+    background-color: #F8F8F8;
+}
+.bottom h3 
+{
+  position: absolute;
+  top: 25%;  
+  left: 5%;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color:#3D56B2;
+  font-weight: 5000;
+}
+.bottom input
+{
+    height: 60px;
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 130px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.bottom input::placeholder
+{
+    font-size: 20px;
+    padding-left: 20px;
+    font-weight: 1000;
+    
+}
+#or
+{
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+}
+.bottom #second
+{
+    height: 200px;
+    width: 250px;
+    position: absolute;
+    left: 1%;
+    top: 35%;
+}
+.bottom #second::placeholder
+{
+    text-align: center;
+}
